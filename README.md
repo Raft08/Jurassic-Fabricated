@@ -1,4 +1,4 @@
-<p align="center"><img src="./src/main/resources/icon.png" width="150px" height="150px" alt="aventium softworks"></p>
+<p align="center"><img src="./src/main/resources/icon.png" width="150px" height="150px" alt="jurrasic-logo"></p>
 
 <h1 align="center">Jurassic Fabricated</h1>
 
