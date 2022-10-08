@@ -1,29 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "jurassic",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Jurassic Fabricated",
+  "description": "Jurassic Fabricated is a Fabric mods that adds dinosaur's to Minecraft",
   "authors": [
-    "Me!"
+    "Raft"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Raft08/Jurassic-Fabricated",
+    "sources": "https://github.com/Raft08/Jurassic-Fabricated",
+    "issues": "https://github.com/Raft08/Jurassic-Fabricated/issues"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Don't Be a Jerk",
+  "icon": "icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "be.raft.jurassic.Jurassic"
+    ],
+    "client": [
+      "be.raft.jurassic.client.JurassicClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "jurassic.mixins.json"
   ],
 
   "depends": {
